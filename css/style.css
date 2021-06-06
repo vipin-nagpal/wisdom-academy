@@ -233,6 +233,8 @@ header{
     width: 80%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     margin: 0 auto;
     padding: 70px 0;
 
@@ -1028,6 +1030,12 @@ footer{
     .search input{
         font-size:20px;
     }
+    .contact .row .box .box-2 .form{
+        position: relative;
+        width: 80%;
+        height: 490px;
+        margin: auto;
+    }
     
 }
 
@@ -1087,8 +1095,50 @@ footer{
     .contant .main-address .single-address span{
         font-size: 11px; 
     }
+   
     
     
+}
+@media (max-width:480px){
+    .spage h1{
+        font-size: 100px;
+    }
+    .spage .contant .box {
+        height: 415px;
+    }
+    .spage .contant .text{
+        margin-top: -390px;
+    }
+    .contact .row .box .box-1 .contant h1{
+        font-size: 30px;   
+    }
+    .contact .row .box .box-1{
+        height: 400px;
+    }
+     .contant .main-address{
+       margin: 5px;
+    }
+     .contant .main-address i{
+        font-size: 15px;
+        color: white;
+        border: 2px solid white;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 10px 13px;
+        
+    }
+     .contant .main-address .single-address{
+        display: inline-block;
+        margin-left: 10px;
+        padding-bottom: 10px;
+    }
+     .contant .main-address .single-address h5{
+        font-size: 12px;
+    }
+     .contant .main-address .single-address span{
+        color: white;
+        font-size: 11px;  
+    }
 }
 @media(max-width:446px)
 {
@@ -1107,7 +1157,60 @@ footer{
     .row-1 .join .box .contant .btn-r{
         font-size: 12px;
     }
-     
-
+    .spage h1{
+        font-size: 70px;
+    }
+    .spage .contant .box {
+        height: 480px;
+    }
+    .spage .contant .text{
+        margin-top: -450px;
+    }
+    .footer h6{
+        margin-left: 10px;
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+    .footer .icon{
+        margin-right: 0px;
+    }
+    .footer .icon a{
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .contact .row .box .box-1 .contant{
+        position: relative;
+        width: 90%;
+    }
     
+    
+}
+@media(max-width:372px){
+    .row-1 .join .box .contant input{
+        width: 280px;
+    }
+    .row-1 .join .box .contant .btn-l{
+       
+         left: 41%;
+         margin-top: 11px;
+        font-size: 12px;  
+    }
+    .row-1 .join .box .contant .btn-r{
+         left: 58.3%;
+         margin-top: 11px;
+        font-size: 12px; 
+    }
+}
+@media(max-width:344px){
+    .row-1 .join .box .contant input{
+        width: 100%;
+    }
+    .row-1 .join .box .contant .btn-l{
+         left: 38%;
+        font-size: 12px; 
+    }
+    .row-1 .join .box .contant .btn-r{
+         left: 58.3%;
+        font-size: 15px;
+    }
 }
